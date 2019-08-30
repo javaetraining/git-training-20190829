@@ -17,6 +17,7 @@ public class Client {
 		
 		System.out.println(studentService.saveStudent(student));
 		((ClassPathXmlApplicationContext) context).close();
+		System.out.println("Added by user3");
 
 	}
 
