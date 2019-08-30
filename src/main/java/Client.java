@@ -9,6 +9,7 @@ public class Client {
 	public static void main(String[] args) {
 
 		System.out.println("Added from the eclipse user2");
+		System.out.println("Added by user2");
 		ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
 		StudentService studentService = context.getBean("studentService", StudentService.class);
 		
