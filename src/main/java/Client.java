@@ -8,7 +8,7 @@ public class Client {
 
 	public static void main(String[] args) {
 
-		System.out.println("Added from the eclipse user2");
+		System.out.println("Added from the eclipse user2_ added in poc_2 branch");
 		ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
 		StudentService studentService = context.getBean("studentService", StudentService.class);
 		
