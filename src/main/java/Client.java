@@ -8,7 +8,10 @@ public class Client {
 
 	public static void main(String[] args) {
 
-		System.out.println("Added from the eclipse user2");
+
+		System.out.println("Added from the eclipse user2 &user3.");
+		System.out.println("Added by user2 & user3.");
+		
 		ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
 		StudentService studentService = context.getBean("studentService", StudentService.class);
 		
@@ -17,6 +20,8 @@ public class Client {
 		
 		System.out.println(studentService.saveStudent(student));
 		((ClassPathXmlApplicationContext) context).close();
+
+		System.out.println("Added by user2user3");
 
 	}
 
