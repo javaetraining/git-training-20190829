@@ -11,6 +11,7 @@ public class Client {
 
 		System.out.println("Added from the eclipse user2 &user3.");
 		System.out.println("Added by user2 & user3.....");
+		System.out.println("Jenkins Trigger Test");
 		
 		ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
 		StudentService studentService = context.getBean("studentService", StudentService.class);
